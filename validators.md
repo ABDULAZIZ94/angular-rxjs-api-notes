@@ -11,29 +11,21 @@ Decorator that marks a class as an Angular directive. You can define your own di
 
 Option	| Description
 --------|--------------
-selector |	
-The CSS selector that identifies this directive in a template and triggers instantiation of the directive.
+selector |	The CSS selector that identifies this directive in a template and triggers instantiation of the directive.
 
-inputs	|
-Enumerates the set of data-bound input properties for a directive
+inputs	| Enumerates the set of data-bound input properties for a directive
 
-outputs	|
-Enumerates the set of event-bound output properties.
+outputs	| Enumerates the set of event-bound output properties.
 
-providers |	
-Configures the injector of this directive or component with a token that maps to a provider of a dependency.
+providers |	Configures the injector of this directive or component with a token that maps to a provider of a dependency.
 
-exportAs |
-Defines the name that can be used in the template to assign this directive to a variable.
+exportAs | Defines the name that can be used in the template to assign this directive to a variable.
 
-queries	|
-Configures the queries that will be injected into the directive.
+queries	| Configures the queries that will be injected into the directive.
 
-host |
-Maps class properties to host element bindings for properties, attributes, and events, using a set of key-value pairs.
+host | Maps class properties to host element bindings for properties, attributes, and events, using a set of key-value pairs.
 
-jit	|
-If true, this directive/component will be skipped by the AOT compiler and so will always be compiled using JIT.
+jit	| If true, this directive/component will be skipped by the AOT compiler and so will always be compiled using JIT.
 
 ## AbstractControl | class
 https://angular.io/api/forms/AbstractControl
